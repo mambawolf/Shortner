@@ -1,0 +1,200 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: #3d5a80; */
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+  width: 100%;
+
+  background-color: #3d5a80;
+}
+
+.pic{
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.title{
+  margin-top: 20px;
+  height: 30vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.titleHeading{
+  /* margin-top: 50px; */
+  padding: 4px 4px;
+}
+
+.titleHeading h1{
+  color: #e0fbfc;
+  font-size: 120px;
+  letter-spacing: 0.5rem;
+}
+
+.tagline{
+  padding: 4px 4px;
+}
+
+.tagline p{
+  font-size: 20px;
+  color: #98c1d9;
+}
+
+.form{
+  /* margin-top: -60px; */
+
+  height: 20vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.form p{
+  font-size: 20px;
+
+}
+
+.buttons{
+  height: 45px;
+  width: 120px;
+
+  font-size: 15px;
+
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+
+  background-color: #e0fbfc;
+  color: #3d5a80;
+  font-weight: 600;
+}
+
+.result{
+  /* margin-top: -60px; */
+  height: 10vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.result h1{
+  font-size: 30px;
+  color: #dee2ff;
+}
+
+/* --------------------------------------Mobile Responsive-------------------------------- */
+
+@media only screen and (max-width: 600px) {
+
+  *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+
+  .App{
+    width: 100vw;
+    height: 100vh;
+  }   
+
+  .title{
+    /* margin-top: 20px; */
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  
+  }
+
+  .titleHeading{
+    padding: 4px 4px;
+    margin-bottom: 10px;
+  }
+  
+  .titleHeading h1{
+    color: #e0fbfc;
+    font-size: 45px;
+    letter-spacing: 4px;
+  }
+
+  .form{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .tagline{
+    padding: 4px 4px;
+    width: 80%
+  }
+  
+  .tagline p{
+    font-size: 20px;
+    color: #98c1d9;
+  }
+
+  .inputdiv{
+    height:45px;
+    width:300px !important;
+  }
+
+  .buttons{
+    height: 45px;
+    width: 300px;
+  
+    font-size: 15px;
+  
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  
+    background-color: #e0fbfc;
+    color: #3d5a80;
+    font-weight: 600;
+  }
+
+  .result{
+    margin-top: 5px;
+  }
+
+  .result h1{
+    font-size: 15px;
+    color: #dee2ff;
+  }
+
+}
